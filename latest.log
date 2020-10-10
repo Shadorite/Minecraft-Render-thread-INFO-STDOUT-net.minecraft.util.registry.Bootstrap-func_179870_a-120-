@@ -1,0 +1,818 @@
+[10Oct2020 11:50:09.525] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Shadorite, --version, 1.16.1-forge-32.0.108, --gameDir, C:\Users\shado\AppData\Roaming\.minecraft, --assetsDir, C:\Users\shado\AppData\Roaming\.minecraft\assets, --assetIndex, 1.16, --uuid, 976855439357477fb0a3f00c1e95311d, --accessToken, ????????, --userType, mojang, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 32.0.108, --fml.mcVersion, 1.16.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200625.160719]
+[10Oct2020 11:50:09.527] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 6.1.1+74+master.966c698 starting: java version 1.8.0_51 by Oracle Corporation
+[10Oct2020 11:50:09.620] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[10Oct2020 11:50:09.621] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\shado\AppData\Roaming\.minecraft\mods\OptiFine_1.16.1_HD_U_G2.jar
+[10Oct2020 11:50:09.683] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[10Oct2020 11:50:09.711] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/shado/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8/mixin-0.8.jar Service=ModLauncher Env=CLIENT
+[10Oct2020 11:50:09.715] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[10Oct2020 11:50:10.712] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[10Oct2020 11:50:10.730] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 291
+[10Oct2020 11:50:10.942] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[10Oct2020 11:50:10.963] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.16.1-forge-32.0.108, --gameDir, C:\Users\shado\AppData\Roaming\.minecraft, --assetsDir, C:\Users\shado\AppData\Roaming\.minecraft\assets, --uuid, 976855439357477fb0a3f00c1e95311d, --username, Shadorite, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release]
+[10Oct2020 11:50:11.617] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod META-INF/itemtransformer.js function tick
+jdk.nashorn.internal.runtime.ECMAException: TypeError: null has no such function "getPrevious"
+	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkNull(NashornBottomLinker.java:172) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:64) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:149) ~[nashorn.jar:?]
+	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:233) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.scripts.Script$Recompilation$13$13883A$\^eval\_.initializeCoreMod$transformer-5(<eval>:247) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:638) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:229) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:387) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:110) ~[nashorn.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:18) ~[coremods-3.0.0.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModMethodTransformer.runCoremod(CoreModMethodTransformer.java:10) ~[coremods-3.0.0.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) [coremods-3.0.0.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:172) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:109) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:247) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:134) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:96) [modlauncher-6.1.1.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_51]
+	at net.optifine.reflect.Reflector.<clinit>(Reflector.java:478) [?:?]
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:101) [?:?]
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:54) [?:?]
+	at net.minecraft.crash.CrashReport.func_230188_h_(CrashReport.java:413) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:122) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.1-32.0.108.jar:32.0]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$435/882962176.call(Unknown Source) [forge-1.16.1-32.0.108.jar:32.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-6.1.1.jar:?]
+[10Oct2020 11:50:18.188] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10Oct2020 11:50:18.192] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Shadorite
+[10Oct2020 11:50:18.407] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[10Oct2020 11:50:18.414] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[10Oct2020 11:50:18.583] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[10Oct2020 11:50:18.583] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.16.1_HD_U_G2
+[10Oct2020 11:50:18.585] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20200802-005745
+[10Oct2020 11:50:18.585] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[10Oct2020 11:50:18.585] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[10Oct2020 11:50:18.585] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[10Oct2020 11:50:18.585] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[10Oct2020 11:50:18.586] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: GeForce RTX 2070 with Max-Q Design/PCIe/SSE2, version 4.6.0 NVIDIA 456.38, NVIDIA Corporation
+[10Oct2020 11:50:18.587] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.0
+[10Oct2020 11:50:18.592] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 32768x32768
+[10Oct2020 11:50:18.594] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[10Oct2020 11:50:18.620] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 456.38
+[10Oct2020 11:50:18.620] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[10Oct2020 11:50:18.620] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: GeForce RTX 2070 with Max-Q Design/PCIe/SSE2
+[10Oct2020 11:50:18.621] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[10Oct2020 11:50:18.621] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[10Oct2020 11:50:18.621] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[10Oct2020 11:50:18.621] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[10Oct2020 11:50:18.621] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[10Oct2020 11:50:18.624] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] No shaderpack loaded.
+[10Oct2020 11:50:18.633] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[10Oct2020 11:50:18.917] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Version found: G2
+[10Oct2020 11:50:19.507] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[10Oct2020 11:50:19.731] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for slingshot_ammo
+[10Oct2020 11:50:19.734] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for goo_ball
+[10Oct2020 11:50:19.736] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for rotten_blisterberry
+[10Oct2020 11:50:19.738] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for blisterbomb
+[10Oct2020 11:50:19.746] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for rotling
+[10Oct2020 11:50:19.747] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for rotwalker
+[10Oct2020 11:50:19.750] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for rotbeast
+[10Oct2020 11:50:19.751] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dweller
+[10Oct2020 11:50:19.752] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for rotdweller
+[10Oct2020 11:50:19.759] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for gwibling
+[10Oct2020 11:50:19.765] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for brute
+[10Oct2020 11:50:19.767] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for scintling
+[10Oct2020 11:50:19.773] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for blisterbomber
+[10Oct2020 11:50:19.777] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for gloomper
+[10Oct2020 11:50:19.788] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for stoneborn
+[10Oct2020 11:50:19.793] [modloading-worker-6/ERROR] [net.minecraft.util.Util/]: No data fixer registered for masticator
+[10Oct2020 11:50:19.831] [modloading-worker-2/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.1.0...
+[10Oct2020 11:50:20.085] [modloading-worker-15/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 32.0.108, for MC 1.16.1 with MCP 20200625.160719
+[10Oct2020 11:50:20.085] [modloading-worker-15/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v32.0.108 Initialized
+[10Oct2020 11:50:20.107] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:water_arrow
+[10Oct2020 11:50:20.112] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:box_turtle
+[10Oct2020 11:50:20.113] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:arrau_turtle
+[10Oct2020 11:50:20.115] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:starshell_turtle
+[10Oct2020 11:50:20.115] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:oak_fish_mount
+[10Oct2020 11:50:20.115] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:spruce_fish_mount
+[10Oct2020 11:50:20.115] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:birch_fish_mount
+[10Oct2020 11:50:20.116] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:jungle_fish_mount
+[10Oct2020 11:50:20.116] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:acacia_fish_mount
+[10Oct2020 11:50:20.116] [modloading-worker-11/ERROR] [net.minecraft.util.Util/]: No data fixer registered for aquaculture:dark_oak_fish_mount
+[10Oct2020 11:50:20.386] [modloading-worker-12/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Structure: The object com.github.alexthe666.iceandfire.world.structure.DreadMausoleumStructure@6f4a3e0c has been registered twice for the same name iceandfire:mausoleum.
+[10Oct2020 11:50:20.391] [modloading-worker-12/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Structure: The object com.github.alexthe666.iceandfire.world.structure.GorgonTempleStructure@1b1cc6f has been registered twice for the same name iceandfire:gorgon_temple.
+[10Oct2020 11:50:20.948] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dragon_multipart
+[10Oct2020 11:50:20.951] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for multipart
+[10Oct2020 11:50:20.953] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hydra_multipart
+[10Oct2020 11:50:20.955] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for cylcops_multipart
+[10Oct2020 11:50:20.955] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dragon_egg
+[10Oct2020 11:50:20.956] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dragon_arrow
+[10Oct2020 11:50:20.956] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dragon_skull
+[10Oct2020 11:50:20.996] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for fire_dragon
+[10Oct2020 11:50:20.999] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for ice_dragon
+[10Oct2020 11:50:21.002] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for lightning_dragon
+[10Oct2020 11:50:21.002] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for fire_dragon_charge
+[10Oct2020 11:50:21.003] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for ice_dragon_charge
+[10Oct2020 11:50:21.003] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for lightning_dragon_charge
+[10Oct2020 11:50:21.004] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hippogryph_egg
+[10Oct2020 11:50:21.014] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hippogryph
+[10Oct2020 11:50:21.014] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for stone_statue
+[10Oct2020 11:50:21.020] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for gorgon
+[10Oct2020 11:50:21.062] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for pixie
+[10Oct2020 11:50:21.067] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for cyclops
+[10Oct2020 11:50:21.078] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for siren
+[10Oct2020 11:50:21.086] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hippocampus
+[10Oct2020 11:50:21.101] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for deathworm
+[10Oct2020 11:50:21.102] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for deathworm_egg
+[10Oct2020 11:50:21.113] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for cockatrice
+[10Oct2020 11:50:21.113] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for cockatrice_egg
+[10Oct2020 11:50:21.119] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for stymphalian_bird
+[10Oct2020 11:50:21.120] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for stymphalian_feather
+[10Oct2020 11:50:21.120] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for stymphalian_arrow
+[10Oct2020 11:50:21.125] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for troll
+[10Oct2020 11:50:21.147] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_worker
+[10Oct2020 11:50:21.150] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_soldier
+[10Oct2020 11:50:21.152] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_sentinel
+[10Oct2020 11:50:21.157] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_royal
+[10Oct2020 11:50:21.159] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_queen
+[10Oct2020 11:50:21.160] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_egg
+[10Oct2020 11:50:21.177] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for amphithere
+[10Oct2020 11:50:21.178] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for amphithere_arrow
+[10Oct2020 11:50:21.192] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for sea_serpent
+[10Oct2020 11:50:21.193] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for sea_serpent_bubbles
+[10Oct2020 11:50:21.193] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for sea_serpent_arrow
+[10Oct2020 11:50:21.194] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for chain_tie
+[10Oct2020 11:50:21.195] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for pixie_charge
+[10Oct2020 11:50:21.200] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for myrmex_swarmer
+[10Oct2020 11:50:21.201] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for tide_trident
+[10Oct2020 11:50:21.201] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mob_skull
+[10Oct2020 11:50:21.219] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_thrall
+[10Oct2020 11:50:21.220] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_ghoul
+[10Oct2020 11:50:21.221] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_beast
+[10Oct2020 11:50:21.222] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_scuttler
+[10Oct2020 11:50:21.227] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_lich
+[10Oct2020 11:50:21.228] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_lich_skull
+[10Oct2020 11:50:21.233] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_knight
+[10Oct2020 11:50:21.234] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for dread_horse
+[10Oct2020 11:50:21.237] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hydra
+[10Oct2020 11:50:21.238] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hydra_breath
+[10Oct2020 11:50:21.239] [modloading-worker-12/ERROR] [net.minecraft.util.Util/]: No data fixer registered for hydra_arrow
+[10Oct2020 11:50:21.253] [Render thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 2 jobs
+[10Oct2020 11:50:21.270] [Render thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.014
+[10Oct2020 11:50:21.777] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: The object debug has been registered twice for the same name citadel:debug.
+[10Oct2020 11:50:21.783] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for artifacts:mimic
+[10Oct2020 11:50:21.848] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:creeper_minion
+[10Oct2020 11:50:21.858] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_creeper
+[10Oct2020 11:50:21.880] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_enderman
+[10Oct2020 11:50:21.888] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_skeleton
+[10Oct2020 11:50:21.896] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_snow_golem
+[10Oct2020 11:50:21.903] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_zombie
+[10Oct2020 11:50:21.908] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:spider_pig
+[10Oct2020 11:50:21.955] [Render thread/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries.
+[10Oct2020 11:50:22.226] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for flamingo
+[10Oct2020 11:50:22.227] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for flamingo_egg
+[10Oct2020 11:50:22.229] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for deer
+[10Oct2020 11:50:22.230] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for nugget_projectile
+[10Oct2020 11:50:22.238] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for spiderstpo:better_spider
+[10Oct2020 11:50:22.253] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for spiderstpo:better_cave_spider
+[10Oct2020 11:50:22.256] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:dirty_pig
+[10Oct2020 11:50:22.258] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:snail
+[10Oct2020 11:50:22.262] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:walrus
+[10Oct2020 11:50:22.266] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:woodaber
+[10Oct2020 11:50:22.268] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:playpatus
+[10Oct2020 11:50:22.273] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for animalia:crow
+[10Oct2020 11:50:22.277] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for champions:arctic_bullet
+[10Oct2020 11:50:22.279] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for champions:enkindling_bullet
+[10Oct2020 11:50:22.280] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:body_part
+[10Oct2020 11:50:22.282] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:chemical_x
+[10Oct2020 11:50:22.283] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:creeper_minion_egg
+[10Oct2020 11:50:22.286] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:endersoul_fragment
+[10Oct2020 11:50:22.289] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:mutant_arrow
+[10Oct2020 11:50:22.290] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:skull_spirit
+[10Oct2020 11:50:22.291] [Render thread/ERROR] [net.minecraft.util.Util/]: No data fixer registered for mutantbeasts:throwable_block
+[10Oct2020 11:50:22.346] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `poison`, expected `firstaid`. This could be a intended override, but in most cases indicates a broken mod.
+[10Oct2020 11:50:22.346] [Render thread/INFO] [firstaid/]: Don't worry, the minecraft poison override IS intended.
+[10Oct2020 11:50:22.383] [Render thread/INFO] [Bookshelf/]: Registered 20 ingredient serializers.
+[10Oct2020 11:50:22.383] [Render thread/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries.
+[10Oct2020 11:50:23.385] [Render thread/INFO] [com.legobmw99.allomancy.Allomancy/]: Allomancy: Registering custom particles
+[10Oct2020 11:50:23.456] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[10Oct2020 11:50:23.514] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[10Oct2020 11:50:23.524] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[10Oct2020 11:50:23.524] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[10Oct2020 11:50:23.593] [Worker-Main-10/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:23.603] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[10Oct2020 11:50:23.603] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[10Oct2020 11:50:23.646] [Worker-Main-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\shado\AppData\Roaming\.minecraft\config\aquaculture-common.toml is not correct. Correcting
+[10Oct2020 11:50:23.647] [Worker-Main-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.box_turtle.exclude was corrected from [] to []
+[10Oct2020 11:50:23.647] [Worker-Main-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.arrau_turtle.exclude was corrected from [] to []
+[10Oct2020 11:50:23.647] [Worker-Main-8/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.starshell_turtle.exclude was corrected from [] to []
+[10Oct2020 11:50:23.693] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of minecraft:mushroom_stew...
+[10Oct2020 11:50:23.693] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of minecraft:rabbit_stew...
+[10Oct2020 11:50:23.693] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of minecraft:beetroot_soup...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:melon_salad...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:carrot_seed_soup...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:blaze_cream...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:nether_wart_soup...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:spider_soup...
+[10Oct2020 11:50:23.694] [modloading-worker-8/INFO] [foodexpansion/]: Food Expansion: Increasing stack of foodexpansion:beetroot_noodles...
+[10Oct2020 11:50:23.704] [modloading-worker-2/INFO] [firstaid/]: firstaid starting...
+[10Oct2020 11:50:23.717] [modloading-worker-4/INFO] [Bookshelf/]: Registering 2 command argument types.
+[10Oct2020 11:50:23.718] [modloading-worker-4/INFO] [Dungeon Crawl/]: Common Setup
+[10Oct2020 11:50:23.722] [modloading-worker-4/INFO] [Dungeon Crawl/]: Registering Structure Piece Types
+[10Oct2020 11:50:23.747] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeDimension
+[10Oct2020 11:50:23.758] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[10Oct2020 11:50:23.758] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[10Oct2020 11:50:23.765] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [animalia] Starting version check at http://myurl.me/
+[10Oct2020 11:50:23.768] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[10Oct2020 11:50:23.778] [modloading-worker-4/INFO] [Dungeon Crawl/]: Calculating WeightedRandomBlock Probabilities...
+[10Oct2020 11:50:23.782] [modloading-worker-4/INFO] [Dungeon Crawl/]: Finished calculations (4 ms)
+[10Oct2020 11:50:23.782] [modloading-worker-4/INFO] [Dungeon Crawl/]: Adding features and structures
+[10Oct2020 11:50:23.785] [modloading-worker-4/INFO] [Dungeon Crawl/]: Loading C:\Users\shado\AppData\Roaming\.minecraft\config\DungeonCrawl\config.json
+[10Oct2020 11:50:23.789] [modloading-worker-4/INFO] [Dungeon Crawl/]: Loading C:\Users\shado\AppData\Roaming\.minecraft\config\DungeonCrawl\loot\specialItemTags.json
+[10Oct2020 11:50:23.791] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:plains
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:desert
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:mountains
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:forest
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:taiga
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:swamp
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:river
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:frozen_river
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_tundra
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_mountains
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:beach
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:desert_hills
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:wooded_hills
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:taiga_hills
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:mountain_edge
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:jungle
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:jungle_hills
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:jungle_edge
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_beach
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:birch_forest
+[10Oct2020 11:50:23.792] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:birch_forest_hills
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:dark_forest
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_taiga
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_taiga_hills
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:giant_tree_taiga
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:giant_tree_taiga_hills
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:wooded_mountains
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:savanna
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:savanna_plateau
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:badlands
+[10Oct2020 11:50:23.793] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:wooded_badlands_plateau
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:badlands_plateau
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:gravel_beach
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:tropic_beach
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:alps_foothills
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:redwood_forest_edge
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:orchard
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:mangrove
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:alps
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:bayou
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:bog
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:boreal_forest
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:brushland
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:chaparral
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:cherry_blossom_grove
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:cold_desert
+[10Oct2020 11:50:23.794] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:coniferous_forest
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:dead_forest
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:fir_clearing
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:floodplain
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:flower_meadow
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:fungal_jungle
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:ghost_forest
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:grassland
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:grove
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:highland
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:highland_moor
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:lavender_field
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:lush_grassland
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:lush_swamp
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:maple_woods
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:marsh
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:meadow
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:mire
+[10Oct2020 11:50:23.795] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:mystic_grove
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:oasis
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:ominous_woods
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:outback
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:overgrown_cliffs
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:pasture
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:poppy_field
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:prairie
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:pumpkin_patch
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:rainbow_valley
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:rainforest
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:redwood_forest
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:scrubland
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:seasonal_forest
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:shield
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:shrubland
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:silkglade
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:snowy_coniferous_forest
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:snowy_fir_clearing
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:snowy_forest
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:steppe
+[10Oct2020 11:50:23.796] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:temperate_rainforest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:temperate_rainforest_hills
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:tropical_rainforest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:tundra
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:wasteland
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:wetland
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:woodland
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: biomesoplenty:xeric_shrubland
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: animalia:muddy_swamp
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: iceandfire:glacier
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: undergarden:forgotten_field
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: undergarden:smogstem_forest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: undergarden:wigglewood_forest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: undergarden:dense_forest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: undergarden:barren_abyss
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:sunflower_plains
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:desert_lakes
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:gravelly_mountains
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:flower_forest
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:taiga_mountains
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:swamp_hills
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:ice_spikes
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:modified_jungle
+[10Oct2020 11:50:23.797] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:modified_jungle_edge
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:tall_birch_forest
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:tall_birch_hills
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:dark_forest_hills
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:snowy_taiga_mountains
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:giant_spruce_taiga
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:giant_spruce_taiga_hills
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:modified_gravelly_mountains
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:shattered_savanna
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:shattered_savanna_plateau
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:eroded_badlands
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:modified_wooded_badlands_plateau
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:modified_badlands_plateau
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:bamboo_jungle
+[10Oct2020 11:50:23.798] [modloading-worker-4/INFO] [Dungeon Crawl/]: Generation Biome: minecraft:bamboo_jungle_hills
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome animalia:muddy_swamp, types have been assigned on a best-effort guess: [SWAMP]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [WET, JUNGLE, HOT]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:soul_sand_valley, types have been assigned on a best-effort guess: [DRY, NETHER, HOT]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:crimson_forest, types have been assigned on a best-effort guess: [DRY, NETHER, HOT]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:warped_forest, types have been assigned on a best-effort guess: [DRY, NETHER, HOT]
+[10Oct2020 11:50:23.806] [modloading-worker-13/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:basalt_deltas, types have been assigned on a best-effort guess: [DRY, NETHER, HOT]
+[10Oct2020 11:50:23.842] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[10Oct2020 11:50:24.017] [Worker-Main-10/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: jei:gui/icons/recipe_transfer, 7 -> 14
+[10Oct2020 11:50:24.327] [Worker-Main-10/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:24.327] [Worker-Main-12/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:24.333] [Worker-Main-9/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:24.385] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_51]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1889) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1884) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1883) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1456) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$4983/183565857.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440) ~[?:1.8.0_51]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 4 more
+[10Oct2020 11:50:24.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/backpacked/update.json
+[10Oct2020 11:50:25.100] [Worker-Main-8/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 6 jobs
+[10Oct2020 11:50:25.147] [Worker-Main-8/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.046
+[10Oct2020 11:50:25.164] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\shado\AppData\Roaming\.minecraft\config\soundfilters-client.toml is not correct. Correcting
+[10Oct2020 11:50:25.164] [modloading-worker-3/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reverb.blockSpecificReverb was corrected from [] to []
+[10Oct2020 11:50:25.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 1.5.1 Target: 1.5.0
+[10Oct2020 11:50:25.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.1
+[10Oct2020 11:50:25.785] [Worker-Main-8/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after SIDED_SETUP: 1 jobs
+[10Oct2020 11:50:25.803] [Worker-Main-8/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.017
+[10Oct2020 11:50:26.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 6.3.21 Target: 6.3.21
+[10Oct2020 11:50:26.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchantmentdescriptions&gv=1.16.1
+[10Oct2020 11:50:26.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 3.0.2 Target: 3.0.2
+[10Oct2020 11:50:26.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10Oct2020 11:50:26.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 32.0.108 Target: 32.0.108
+[10Oct2020 11:50:26.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dash] Starting version check at https://gitlab.com/modding-legacy/supporters/-/raw/master/dash.json
+[10Oct2020 11:50:26.874] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: animalia:blockstates/mud.json: java.io.FileNotFoundException: animalia:blockstates/mud.json
+[10Oct2020 11:50:26.874] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=0'
+[10Oct2020 11:50:26.874] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=4'
+[10Oct2020 11:50:26.874] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=3'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=2'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=1'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=8'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=7'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=6'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=5'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=14'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=15'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=9'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=10'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=11'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=12'
+[10Oct2020 11:50:26.875] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'animalia:blockstates/mud.json' missing model for variant: 'animalia:mud#level=13'
+[10Oct2020 11:50:26.956] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/dash.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_51]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1889) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1884) ~[?:1.8.0_51]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1883) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1456) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440) ~[?:1.8.0_51]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1$$Lambda$4983/183565857.accept(Unknown Source) [?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/dash.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1839) ~[?:1.8.0_51]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1440) ~[?:1.8.0_51]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_51]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 4 more
+[10Oct2020 11:50:27.006] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'minecraft:block/torch_wall' referenced from: iceandfire:dread_torch_wall#facing=north: {}
+[10Oct2020 11:50:27.006] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: java.io.FileNotFoundException: minecraft:models/block/torch_wall.json
+[10Oct2020 11:50:28.148] [Worker-Main-14/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:28.148] [Worker-Main-14/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:28.148] [Worker-Main-14/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:28.148] [Worker-Main-14/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:28.462] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: minecraft:missingno in allomancy:block/iron_lever_off
+[10Oct2020 11:50:28.463] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in iceandfire:block/dread_torch_wall
+[10Oct2020 11:50:28.463] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in bountifulbaubles:block/water_candle
+[10Oct2020 11:50:28.463] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: minecraft:missingno in allomancy:block/iron_lever
+[10Oct2020 11:50:28.463] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missingno in iceandfire:block/burnt_torch_wall
+[10Oct2020 11:50:28.463] [Worker-Main-14/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in bountifulbaubles:item/water_candle
+[10Oct2020 11:50:28.464] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:28.477] [Worker-Main-14/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:28.479] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[10Oct2020 11:50:28.484] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[10Oct2020 11:50:28.507] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[10Oct2020 11:50:28.521] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[10Oct2020 11:50:28.535] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[10Oct2020 11:50:28.546] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[10Oct2020 11:50:28.557] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[10Oct2020 11:50:28.566] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[10Oct2020 11:50:28.579] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[10Oct2020 11:50:28.592] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[10Oct2020 11:50:28.604] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[10Oct2020 11:50:28.616] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[10Oct2020 11:50:28.629] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[10Oct2020 11:50:28.641] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[10Oct2020 11:50:28.655] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[10Oct2020 11:50:28.669] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[10Oct2020 11:50:28.682] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[10Oct2020 11:50:28.695] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[10Oct2020 11:50:28.708] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[10Oct2020 11:50:28.721] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[10Oct2020 11:50:28.734] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[10Oct2020 11:50:28.745] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[10Oct2020 11:50:28.757] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[10Oct2020 11:50:28.771] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[10Oct2020 11:50:28.784] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[10Oct2020 11:50:28.798] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[10Oct2020 11:50:28.810] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[10Oct2020 11:50:28.819] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[10Oct2020 11:50:28.829] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[10Oct2020 11:50:28.842] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[10Oct2020 11:50:28.854] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[10Oct2020 11:50:28.865] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[10Oct2020 11:50:28.877] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[10Oct2020 11:50:28.888] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[10Oct2020 11:50:28.898] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[10Oct2020 11:50:28.907] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[10Oct2020 11:50:28.908] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[10Oct2020 11:50:28.908] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[10Oct2020 11:50:28.909] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[10Oct2020 11:50:28.912] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[10Oct2020 11:50:31.216] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[10Oct2020 11:50:31.707] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: allomancy:item/koloss_blade, 24 -> 32
+[10Oct2020 11:50:32.322] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.328] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.328] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:32.332] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.371] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.371] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:32.392] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.430] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.430] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:32.450] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.457] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.457] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:32.461] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.472] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.472] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:32.477] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[10Oct2020 11:50:32.490] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[10Oct2020 11:50:32.490] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[10Oct2020 11:50:34.066] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[10Oct2020 11:50:34.067] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[10Oct2020 11:50:34.232] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x256x0 jei:textures/atlas/gui.png-atlas
+[10Oct2020 11:50:34.232] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[10Oct2020 11:50:34.233] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[10Oct2020 11:50:34.233] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10Oct2020 11:50:34.268] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 57
+[10Oct2020 11:50:34.270] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[10Oct2020 11:50:34.270] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.270] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Oct2020 11:50:34.271] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.271] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Oct2020 11:50:34.272] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10Oct2020 11:50:34.272] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.272] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10Oct2020 11:50:34.273] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.273] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Oct2020 11:50:34.273] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[10Oct2020 11:50:34.917] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10Oct2020 11:50:34.918] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.918] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Oct2020 11:50:34.918] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[10Oct2020 11:50:34.919] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[10Oct2020 11:50:34.927] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:34.968] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:34.970] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:52.485] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:52.728] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:52.731] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[10Oct2020 11:50:52.738] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Disable Forge light pipeline
+[10Oct2020 11:50:52.738] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[10Oct2020 11:50:53.120] [Render thread/INFO] [com.tmtravlr.soundfilters.SoundFiltersMod/]: Sound Filters successfully loaded the sound channels
+[10Oct2020 11:51:11.098] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to localhost, 25565
+[10Oct2020 11:51:13.126] [Netty Client IO #1/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[10Oct2020 11:51:13.692] [Netty Client IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[10Oct2020 11:51:13.692] [Netty Client IO #1/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[10Oct2020 11:51:13.785] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10Oct2020 11:51:13.985] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[10Oct2020 11:51:14.158] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[10Oct2020 11:51:14.163] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 4.552 ms
+[10Oct2020 11:51:14.163] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[10Oct2020 11:51:15.003] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 840.1 ms
+[10Oct2020 11:51:15.003] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[10Oct2020 11:51:15.004] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 915.4 ?s
+[10Oct2020 11:51:15.004] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[10Oct2020 11:51:15.064] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 59.51 ms
+[10Oct2020 11:51:15.069] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[10Oct2020 11:51:15.095] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 26.95 ms
+[10Oct2020 11:51:15.102] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 1.117 s
+[10Oct2020 11:51:15.411] [Render thread/INFO] [firstaid/]: Received remote damage model
+[10Oct2020 11:51:15.416] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] [First Aid] Press key.keyboard.h for the tutorial
+[10Oct2020 11:51:15.449] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 20 advancements
+[10Oct2020 11:51:15.690] [Render thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: SAND
+	Index: 5
+	Listeners:
+		0: NORMAL
+		1: ASM: com.legacy.dash.DashEntityEvents@398c458f onClientTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		2: ASM: class gigaherz.toolbelt.client.ClientEvents handleKeys(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		3: ASM: class com.tmtravlr.soundfilters.SoundEventHandler onTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		4: ASM: net.minecraftforge.common.ForgeInternalHandler@1f1bad1d checkSettings(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		5: ASM: team.creative.enhancedvisuals.common.event.EVEvents@6d951da4 clientTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		6: ASM: com.legobmw99.allomancy.modules.powers.client.ClientEventHandler@df2e8c3 onClientTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		7: ASM: top.theillusivec4.curios.client.ClientEventHandler@79c6a7c4 onKeyInput(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		8: ASM: class team.creative.itemphysic.client.ItemPhysicClient gameTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		9: ASM: class ichttt.mods.firstaid.client.ClientEventHandler clientTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+		10: ASM: mezz.jei.gui.GuiEventHandler@14e8a173 onClientTick(Lnet/minecraftforge/event/TickEvent$ClientTickEvent;)V
+java.lang.NoSuchFieldError: SAND
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.isOnSand(SandSplatHandler.java:38)
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.tick(SandSplatHandler.java:28)
+	at team.creative.enhancedvisuals.client.VisualManager.onTick(VisualManager.java:53)
+	at team.creative.enhancedvisuals.common.event.EVEvents.clientTick(EVEvents.java:82)
+	at net.minecraftforge.eventbus.ASMEventHandler_259_EVEvents_clientTick_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297)
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPreClientTick(BasicEventHooks.java:105)
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1388)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:928)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:582)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$435/882962176.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+[10Oct2020 11:51:15.694] [Render thread/FATAL] [net.minecraft.client.Minecraft/]: Unreported exception thrown!
+java.lang.NoSuchFieldError: SAND
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.isOnSand(SandSplatHandler.java:38) ~[?:?]
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.tick(SandSplatHandler.java:28) ~[?:?]
+	at team.creative.enhancedvisuals.client.VisualManager.onTick(VisualManager.java:53) ~[?:?]
+	at team.creative.enhancedvisuals.common.event.EVEvents.clientTick(EVEvents.java:82) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler_259_EVEvents_clientTick_ClientTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-3.0.3-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.3-service.jar:?]
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPreClientTick(BasicEventHooks.java:105) ~[?:?]
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1388) ~[?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:928) ~[?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:582) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.1-32.0.108.jar:32.0]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$435/882962176.call(Unknown Source) [forge-1.16.1-32.0.108.jar:32.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-6.1.1.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-6.1.1.jar:?]
+[10Oct2020 11:51:19.073] [Render thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:func_179870_a:120]: ---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 10/10/20 11:51 AM
+Description: Unexpected error
+
+java.lang.NoSuchFieldError: SAND
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.isOnSand(SandSplatHandler.java:38) ~[?:?] {re:classloading}
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.tick(SandSplatHandler.java:28) ~[?:?] {re:classloading}
+	at team.creative.enhancedvisuals.client.VisualManager.onTick(VisualManager.java:53) ~[?:?] {re:classloading}
+	at team.creative.enhancedvisuals.common.event.EVEvents.clientTick(EVEvents.java:82) ~[?:?] {re:classloading}
+	at net.minecraftforge.eventbus.ASMEventHandler_259_EVEvents_clientTick_ClientTickEvent.invoke(.dynamic) ~[?:?] {}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-3.0.3-service.jar:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297) ~[eventbus-3.0.3-service.jar:?] {}
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPreClientTick(BasicEventHooks.java:105) ~[?:?] {re:classloading}
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1388) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:928) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:582) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.1-32.0.108.jar:32.0] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$435/882962176.call(Unknown Source) [forge-1.16.1-32.0.108.jar:32.0] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-6.1.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-6.1.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-6.1.1.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-6.1.1.jar:?] {re:classloading}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-6.1.1.jar:?] {re:classloading}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.isOnSand(SandSplatHandler.java:38)
+	at team.creative.enhancedvisuals.common.handler.SandSplatHandler.tick(SandSplatHandler.java:28)
+	at team.creative.enhancedvisuals.client.VisualManager.onTick(VisualManager.java:53)
+	at team.creative.enhancedvisuals.common.event.EVEvents.clientTick(EVEvents.java:82)
+	at net.minecraftforge.eventbus.ASMEventHandler_259_EVEvents_clientTick_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:297)
+	at net.minecraftforge.fml.hooks.BasicEventHooks.onPreClientTick(BasicEventHooks.java:105)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Shadorite'/245, l='ClientLevel', x=-102.30, y=70.00, z=-89.85]]
+	Chunk stats: Client Chunk Cache: 729, 462
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-64,67,-96), Chunk: (at 0,4,0 in -4,-6; contains blocks -64,0,-96 to -49,255,-81), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 43001 game time, 43001 day time
+	Server brand: forge
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.func_72914_a(ClientWorld.java:616)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:1973)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:603)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$435/882962176.call(Unknown Source)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.1
+	Minecraft Version ID: 1.16.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 9066928056 bytes (8646 MB) / 10737418240 bytes (10240 MB) up to 10737418240 bytes (10240 MB)
+	CPUs: 12
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx10G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	ModLauncher: 6.1.1+74+master.966c698
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.jar mixin PLUGINSERVICE 
+		/eventbus-3.0.3-service.jar eventbus PLUGINSERVICE 
+		/forge-1.16.1-32.0.108.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.108.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.2.0-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.1-32.0.108.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.1-32.0.108.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.jar mixin TRANSFORMATIONSERVICE 
+		/OptiFine_1.16.1_HD_U_G2.jar OptiFine TRANSFORMATIONSERVICE 
+		/forge-1.16.1-32.0.108.jar fml TRANSFORMATIONSERVICE 
+	FML: 32.0
+	Forge: net.minecraftforge:32.0.108
+	FML Language Providers: 
+		javafml@32.0
+		minecraft@1
+	Mod List: 
+		forge-1.16.1-32.0.108-client.jar Minecraft {minecraft@1.16.1 DONE}
+		Flamingo-oh-oh-oh-1.0.1-MC1.16.1.jar Flamingo, oh, oh, oh... {flamingo_ooo@1.0.1 DONE}
+		foodexpansion-1.6.0.jar Food Expansion: Reimagined {foodexpansion@1.6.0 DONE}
+		GentleFawn-1.1.1-MC1.16.1.jar Gentle Fawn {gentlefawn@1.1.1 DONE}
+		ToolBelt-1.16.1-1.14.2.jar Tool Belt {toolbelt@1.14.2 DONE}
+		allomancy-4.1.1.jar Allomancy {allomancy@4.1.1 DONE}
+		BiomesOPlenty-1.16.1-11.0.0.374-universal.jar Biomes O' Plenty {biomesoplenty@1.16.1-11.0.0.373 DONE}
+		spiders-2.0-1.16.1-1.0.1.jar Spiders 2.0 {spiderstpo@1.0.1 DONE}
+		CreativeCore_v2.0.7_mc1.16.2.jar CreativeCore {creativecore@2.0.0 DONE}
+		Bountiful+Baubles+FORGE-1.16.1-0.0.1.jar Bountiful Baubles {bountifulbaubles@NONE DONE}
+		Animalia-1.0.1_1.16.1.jar Animalia Mod {animalia@1.16.1-1.0.1 DONE}
+		jei-1.16.1-7.0.0.6.jar Just Enough Items {jei@7.0.0.6 DONE}
+		curios-FORGE-1.16.1-3.0.0.2.jar Curios API {curios@FORGE-1.16.1-3.0.0.2 DONE}
+		Waystones_1.16.1-7.1.1.jar Waystones {waystones@7.1.1 DONE}
+		EnhancedVisuals_v1.3.18_mc1.16.2.jar EnhancedVisuals {enhancedvisuals@1.3.0 DONE}
+		comforts-FORGE-1.16.1-3.0.0.1.jar Comforts {comforts@FORGE-1.16.1-3.0.0.1 DONE}
+		citadel-1.2.0.jar Citadel {citadel@1.2.0 DONE}
+		Artifacts-1.16.1-2.5.2.jar Artifacts {artifacts@1.16.1-2.5.2 DONE}
+		backpacked-1.5.1-1.16.1.jar Backpacked {backpacked@1.5.1 DONE}
+		champions-FORGE-1.16.1-2.0-beta6.jar Champions {champions@FORGE-1.16.1-2.0-beta6 DONE}
+		DungeonCrawl-1.16.1-2.1.0.jar Dungeon Crawl {dungeoncrawl@2.1.0 DONE}
+		MutantBeasts-1.16.1-1.1.1.jar Mutant Beasts {mutantbeasts@1.16.1-1.1.1 DONE}
+		Bookshelf-1.16.1-6.3.21.jar Bookshelf {bookshelf@6.3.21 DONE}
+		EnchantmentDescriptions-1.16.1-3.0.2.jar EnchantmentDescriptions {enchdesc@3.0.2 DONE}
+		iceandfire-2.0.2-1.16.1.jar Ice and Fire {iceandfire@2.0.2-1.16.1 DONE}
+		ItemPhysic_v1.4.6_mc1.16.2.jar ItemPhysic {itemphysic@1.6.0 DONE}
+		undergarden-0.2.3.jar The Undergarden {undergarden@0.2.3 DONE}
+		firstaid-1.9.2.jar First Aid {firstaid@1.9.2 DONE}
+		forge-1.16.1-32.0.108-universal.jar Forge {forge@32.0.108 DONE}
+		Aquaculture-1.16.1-2.0.20.jar Aquaculture 2 {aquaculture@1.16.1-2.0.20 DONE}
+		SoundFilters-0.14_for_1.16.jar Sound Filters {soundfilters@0.14_for_1.16 DONE}
+		dash-1.16.1-1.0.1.jar Dash {dash@1.0.1 DONE}
+	Launched Version: 1.16.1-forge-32.0.108
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: GeForce RTX 2070 with Max-Q Design/PCIe/SSE2 GL version 4.6.0 NVIDIA 456.38, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 12x Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+	OptiFine Version: OptiFine_1.16.1_HD_U_G2
+	OptiFine Build: 20200802-005745
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 456.38
+	OpenGlRenderer: GeForce RTX 2070 with Max-Q Design/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 12
+[10Oct2020 11:51:19.077] [Render thread/INFO] [STDOUT/]: [net.minecraft.util.registry.Bootstrap:func_179870_a:120]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\shado\AppData\Roaming\.minecraft\crash-reports\crash-2020-10-10_11.51.18-client.txt
